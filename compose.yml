@@ -18,6 +18,9 @@ services:
       # Uncomment this if IPv6 is not enabled on your host
       # DISABLE_IPV6: 'true'
 
+      INITIAL_ADMIN_EMAIL: nawataratech@gmail.com
+      INITIAL_ADMIN_PASSWORD: 2025!Nawatara
+
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
